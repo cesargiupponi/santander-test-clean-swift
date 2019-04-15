@@ -8,20 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		EEE81ACD2260B15A0005F738 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE81ACC2260B15A0005F738 /* AppDelegate.swift */; };
-		EEE81ACF2260B15A0005F738 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE81ACE2260B15A0005F738 /* ViewController.swift */; };
 		EEE81AD22260B15A0005F738 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE81AD02260B15A0005F738 /* Main.storyboard */; };
 		EEE81AD42260B15C0005F738 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE81AD32260B15C0005F738 /* Assets.xcassets */; };
 		EEE81AD72260B15C0005F738 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE81AD52260B15C0005F738 /* LaunchScreen.storyboard */; };
+		EEE81AE42260B3D30005F738 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE81ADE2260B3D30005F738 /* LoginPresenter.swift */; };
+		EEE81AE52260B3D30005F738 /* LoginWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE81ADF2260B3D30005F738 /* LoginWorker.swift */; };
+		EEE81AE62260B3D30005F738 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE81AE02260B3D30005F738 /* LoginRouter.swift */; };
+		EEE81AE72260B3D30005F738 /* LoginModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE81AE12260B3D30005F738 /* LoginModels.swift */; };
+		EEE81AE82260B3D30005F738 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE81AE22260B3D30005F738 /* LoginViewController.swift */; };
+		EEE81AE92260B3D30005F738 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE81AE32260B3D30005F738 /* LoginInteractor.swift */; };
+		EEE81AEE2260BC290005F738 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE81AED2260BC290005F738 /* Error.swift */; };
+		EEE81AF62260C0540005F738 /* StatementPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE81AF02260C0540005F738 /* StatementPresenter.swift */; };
+		EEE81AF72260C0540005F738 /* StatementWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE81AF12260C0540005F738 /* StatementWorker.swift */; };
+		EEE81AF82260C0540005F738 /* StatementRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE81AF22260C0540005F738 /* StatementRouter.swift */; };
+		EEE81AF92260C0540005F738 /* StatementModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE81AF32260C0540005F738 /* StatementModels.swift */; };
+		EEE81AFA2260C0540005F738 /* StatementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE81AF42260C0540005F738 /* StatementViewController.swift */; };
+		EEE81AFB2260C0540005F738 /* StatementInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE81AF52260C0540005F738 /* StatementInteractor.swift */; };
+		EEE81B012260D5060005F738 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE81B002260D5060005F738 /* Enums.swift */; };
+		EEE81B042260D5AC0005F738 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE81B032260D5AC0005F738 /* Extension.swift */; };
+		EEE81B0722610A5B0005F738 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE81B0622610A5B0005F738 /* Service.swift */; };
+		EEE94CC12262391000C44294 /* StatementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE94CBF2262391000C44294 /* StatementTableViewCell.swift */; };
+		EEE94CC22262391000C44294 /* StatementTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEE94CC02262391000C44294 /* StatementTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EEE81AC92260B15A0005F738 /* santander-test-clean-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "santander-test-clean-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE81ACC2260B15A0005F738 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EEE81ACE2260B15A0005F738 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EEE81AD12260B15A0005F738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEE81AD32260B15C0005F738 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEE81AD62260B15C0005F738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEE81AD82260B15C0005F738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE81ADE2260B3D30005F738 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		EEE81ADF2260B3D30005F738 /* LoginWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWorker.swift; sourceTree = "<group>"; };
+		EEE81AE02260B3D30005F738 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		EEE81AE12260B3D30005F738 /* LoginModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModels.swift; sourceTree = "<group>"; };
+		EEE81AE22260B3D30005F738 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EEE81AE32260B3D30005F738 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		EEE81AED2260BC290005F738 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		EEE81AF02260C0540005F738 /* StatementPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementPresenter.swift; sourceTree = "<group>"; };
+		EEE81AF12260C0540005F738 /* StatementWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementWorker.swift; sourceTree = "<group>"; };
+		EEE81AF22260C0540005F738 /* StatementRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementRouter.swift; sourceTree = "<group>"; };
+		EEE81AF32260C0540005F738 /* StatementModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementModels.swift; sourceTree = "<group>"; };
+		EEE81AF42260C0540005F738 /* StatementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementViewController.swift; sourceTree = "<group>"; };
+		EEE81AF52260C0540005F738 /* StatementInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementInteractor.swift; sourceTree = "<group>"; };
+		EEE81B002260D5060005F738 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		EEE81B032260D5AC0005F738 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		EEE81B0622610A5B0005F738 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		EEE94CBF2262391000C44294 /* StatementTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementTableViewCell.swift; sourceTree = "<group>"; };
+		EEE94CC02262391000C44294 /* StatementTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatementTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +72,11 @@
 		EEE81AC02260B15A0005F738 = {
 			isa = PBXGroup;
 			children = (
+				EEE81B0522610A2E0005F738 /* Service */,
+				EEE81B022260D5970005F738 /* Extensions */,
+				EEE81AFF2260D4FA0005F738 /* Enums */,
+				EEE81AEC2260B7730005F738 /* Models */,
+				EEE81AEA2260B3E80005F738 /* Scenes */,
 				EEE81ACB2260B15A0005F738 /* santander-test-clean-swift */,
 				EEE81ACA2260B15A0005F738 /* Products */,
 			);
@@ -55,13 +94,89 @@
 			isa = PBXGroup;
 			children = (
 				EEE81ACC2260B15A0005F738 /* AppDelegate.swift */,
-				EEE81ACE2260B15A0005F738 /* ViewController.swift */,
 				EEE81AD02260B15A0005F738 /* Main.storyboard */,
 				EEE81AD32260B15C0005F738 /* Assets.xcassets */,
 				EEE81AD52260B15C0005F738 /* LaunchScreen.storyboard */,
 				EEE81AD82260B15C0005F738 /* Info.plist */,
 			);
 			path = "santander-test-clean-swift";
+			sourceTree = "<group>";
+		};
+		EEE81AEA2260B3E80005F738 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EEE81AEB2260B5690005F738 /* Login */,
+				EEE81AEF2260C0390005F738 /* Statement */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		EEE81AEB2260B5690005F738 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EEE81ADE2260B3D30005F738 /* LoginPresenter.swift */,
+				EEE81ADF2260B3D30005F738 /* LoginWorker.swift */,
+				EEE81AE02260B3D30005F738 /* LoginRouter.swift */,
+				EEE81AE12260B3D30005F738 /* LoginModels.swift */,
+				EEE81AE22260B3D30005F738 /* LoginViewController.swift */,
+				EEE81AE32260B3D30005F738 /* LoginInteractor.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EEE81AEC2260B7730005F738 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EEE81AED2260BC290005F738 /* Error.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EEE81AEF2260C0390005F738 /* Statement */ = {
+			isa = PBXGroup;
+			children = (
+				EEE94CBE226238E500C44294 /* View Cell */,
+				EEE81AF02260C0540005F738 /* StatementPresenter.swift */,
+				EEE81AF12260C0540005F738 /* StatementWorker.swift */,
+				EEE81AF22260C0540005F738 /* StatementRouter.swift */,
+				EEE81AF32260C0540005F738 /* StatementModels.swift */,
+				EEE81AF42260C0540005F738 /* StatementViewController.swift */,
+				EEE81AF52260C0540005F738 /* StatementInteractor.swift */,
+			);
+			path = Statement;
+			sourceTree = "<group>";
+		};
+		EEE81AFF2260D4FA0005F738 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				EEE81B002260D5060005F738 /* Enums.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		EEE81B022260D5970005F738 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EEE81B032260D5AC0005F738 /* Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EEE81B0522610A2E0005F738 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EEE81B0622610A5B0005F738 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		EEE94CBE226238E500C44294 /* View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EEE94CBF2262391000C44294 /* StatementTableViewCell.swift */,
+				EEE94CC02262391000C44294 /* StatementTableViewCell.xib */,
+			);
+			path = "View Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +240,7 @@
 				EEE81AD72260B15C0005F738 /* LaunchScreen.storyboard in Resources */,
 				EEE81AD42260B15C0005F738 /* Assets.xcassets in Resources */,
 				EEE81AD22260B15A0005F738 /* Main.storyboard in Resources */,
+				EEE94CC22262391000C44294 /* StatementTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +251,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEE81ACF2260B15A0005F738 /* ViewController.swift in Sources */,
+				EEE81AE82260B3D30005F738 /* LoginViewController.swift in Sources */,
+				EEE81AE42260B3D30005F738 /* LoginPresenter.swift in Sources */,
+				EEE81AF82260C0540005F738 /* StatementRouter.swift in Sources */,
+				EEE81AF62260C0540005F738 /* StatementPresenter.swift in Sources */,
+				EEE94CC12262391000C44294 /* StatementTableViewCell.swift in Sources */,
+				EEE81AFA2260C0540005F738 /* StatementViewController.swift in Sources */,
+				EEE81B0722610A5B0005F738 /* Service.swift in Sources */,
+				EEE81AF72260C0540005F738 /* StatementWorker.swift in Sources */,
 				EEE81ACD2260B15A0005F738 /* AppDelegate.swift in Sources */,
+				EEE81AE92260B3D30005F738 /* LoginInteractor.swift in Sources */,
+				EEE81AE72260B3D30005F738 /* LoginModels.swift in Sources */,
+				EEE81B012260D5060005F738 /* Enums.swift in Sources */,
+				EEE81AF92260C0540005F738 /* StatementModels.swift in Sources */,
+				EEE81AE62260B3D30005F738 /* LoginRouter.swift in Sources */,
+				EEE81AEE2260BC290005F738 /* Error.swift in Sources */,
+				EEE81B042260D5AC0005F738 /* Extension.swift in Sources */,
+				EEE81AFB2260C0540005F738 /* StatementInteractor.swift in Sources */,
+				EEE81AE52260B3D30005F738 /* LoginWorker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +423,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cesarpaiva.santander-test-clean-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,7 +440,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cesarpaiva.santander-test-clean-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
