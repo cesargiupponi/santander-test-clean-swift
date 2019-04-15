@@ -1,5 +1,3 @@
-# santander-test-clean-swift
-
 # Show me the code
 
 Esse repositório contem todo o material necessário para realizar o teste: 
